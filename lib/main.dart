@@ -1,4 +1,6 @@
+import 'package:aula_http_flutter/views/cadastro_screen.dart';
 import 'package:aula_http_flutter/views/homepage.dart';
+import 'package:aula_http_flutter/views/login_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const Homepage(),
+      home: Cadastro(),
     );
   }
 }
